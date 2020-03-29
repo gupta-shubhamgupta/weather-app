@@ -18,6 +18,9 @@ function getdata(cityname){
 		if(data.cod==404){
 			display.innerHTML="<h3>City Not Found</h3>"
 		}
+		else if(data.cod==400){
+			display.innerHTML="<h3>Please enter a city name</h3>"
+		}
 		else{
 			
 			display.innerHTML =""
