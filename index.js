@@ -30,6 +30,7 @@ function getdata(cityname){
     
     /*document.getElementById("weater-icon").setAttribute("src","https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png");*/
     document.getElementById("weather-icon").setAttribute("src",`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
+			document.getElementById("plain").value="";
 		}
   })
 	
