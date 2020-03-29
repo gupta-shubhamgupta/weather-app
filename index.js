@@ -16,7 +16,7 @@ function getdata(cityname){
 	.then(data => {
 		console.log(data.cod)
 		if(data.cod==404){
-			app.innerHTML="<h3>City Not Found</h3>"
+			display.innerHTML="<h3>City Not Found</h3>"
 		}
 		else{
 			
