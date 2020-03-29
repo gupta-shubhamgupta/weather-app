@@ -9,7 +9,7 @@ submit.addEventListener("click", function(e){
 display=document.getElementById('display');
 
 function getdata(cityname){
-	url=`http://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=4e3eae26ea3aecc20073617c430ce26e`;
+	url=`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=4e3eae26ea3aecc20073617c430ce26e`;
 	
 	fetch(url) .then(response => response.json())
 	/*.then(data => {console.log(data.name), console.log(Math.floor(v=data.main.temp-273)) })*/	
